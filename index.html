@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+
+    <h1>Cardápio Aleatório</h1>
+    <input type="button" value="Gerar" onclick="generateMenu()" id="button">
+
+    <div id="lunch" class="meal_name">
+        <!-- <input type="button" value="Alterar" onclick="generateMeal('1','lunch_one', lunch)"> -->
+        <div><strong>ALMOÇO</strong></div>
+        <!-- <input type="button" value="Alterar" onclick="generateMeal('2','lunch_two', lunch)"> -->
+    </div>
+
+    <div id="option_box">
+        <div id="lunch_one" class="meal"><strong>Opção 1</strong></div>
+        <div id="lunch_two" class="meal"><strong>Opção 2</strong></div>
+    </div>
+
+    <div id="dinner" class="meal_name">
+        <!-- <input type="button" value="Alterar" onclick="generateMeal('1','dinner_one', dinner)"> -->
+        <div><strong>JANTAR</strong></div>
+        <!-- <input type="button" value="Alterar" onclick="generateMeal('2','dinner_two', dinner)"> -->
+    </div>
+
+    <div id="option_box">
+        <div id="dinner_one" class="meal"><strong>Opção 1</strong></div>
+        <div id="dinner_two" class="meal"><strong>Opção 2</strong></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
